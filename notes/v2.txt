@@ -1,0 +1,19 @@
+The Nest Recovery Homes Admin
+
+Backend Stack:
+- Node.js
+- Express
+- MongoDB Atlas
+- JWT Auth
+- Cloudinary
+- Google Analytics API
+
+Current Progress:
+✅ STEP 1 Backend Setup Completed
+
+Important:
+package.json must contain:
+"type": "module"
+
+and MUST NOT contain:
+"type": "commonjs"

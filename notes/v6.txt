@@ -1,0 +1,39 @@
+The Nest Recovery Homes
+
+Authentication Flow
+
+Backend:
+POST /api/auth/login
+
+Frontend:
+Login.jsx
+
+Axios:
+baseURL = http://localhost:5000/api
+
+Storage:
+
+adminToken
+
+adminUser
+
+Default Login:
+
+[admin@thenest.com](mailto:admin@thenest.com)
+
+Admin@123
+
+Completed:
+
+✅ Login API
+✅ React Login Integration
+
+Next:
+
+STEP 7
+
+ProtectedRoute JWT Validation
+
+Auto Logout
+
+Admin Profile Fetch

@@ -1,0 +1,41 @@
+The Nest Recovery Homes
+
+STEP 10
+
+Gallery Backend
+
+Packages:
+
+cloudinary
+
+multer
+
+Files Created:
+
+config/cloudinary.js
+
+models/Gallery.js
+
+middleware/uploadMiddleware.js
+
+controllers/galleryController.js
+
+Gallery Schema:
+
+title
+
+category
+
+imageUrl
+
+publicId
+
+Next:
+
+Image Upload API
+
+Cloudinary Upload
+
+Delete API
+
+Gallery Frontend Integration

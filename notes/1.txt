@@ -1,0 +1,49 @@
+Project: The Nest Recovery Homes
+
+Frontend:
+React + Vite + Tailwind Admin Panel
+
+Completed Admin Pages:
+
+* Dashboard
+* Leads CRM
+* Gallery
+* Testimonials
+* Analytics
+* Settings
+
+Current Backend Progress:
+STEP 1 Backend Setup
+
+Backend Stack:
+
+* Node.js
+* Express
+* MongoDB Atlas
+* JWT Authentication
+* Cloudinary
+* Google Analytics API
+
+Folder Structure:
+
+backend/
+src/
+config/
+controllers/
+middleware/
+models/
+routes/
+utils/
+server.js
+
+Installed Packages:
+express
+mongoose
+cors
+dotenv
+bcryptjs
+jsonwebtoken
+nodemon
+
+Next Step:
+STEP 2 MongoDB Connection

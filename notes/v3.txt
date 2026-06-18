@@ -1,0 +1,22 @@
+The Nest Recovery Homes Backend
+
+Completed:
+✅ Step 1 Backend Setup
+✅ Step 2 MongoDB Atlas Connection
+
+Files:
+
+src/config/db.js
+src/server.js
+
+Environment Variables:
+
+PORT
+MONGO_URI
+JWT_SECRET
+
+Database Name:
+the_nest_db
+
+Next Step:
+STEP 3 Admin Model + Default Admin Seeder

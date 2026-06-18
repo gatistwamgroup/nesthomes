@@ -1,0 +1,3 @@
+dotenv.config(); 
+
+File add in Cloudinary.js

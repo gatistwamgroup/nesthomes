@@ -1,0 +1,27 @@
+The Nest Recovery Homes Backend
+
+Completed:
+
+✅ Backend Setup
+✅ MongoDB Connection
+✅ Admin Model
+✅ Default Admin Seeder
+
+Default Login:
+
+Email:
+admin@thenest.com
+
+Password:
+Admin@123
+
+Files:
+
+src/models/Admin.js
+
+src/utils/createAdmin.js
+
+Next Step:
+
+STEP 4
+JWT Authentication + Login API

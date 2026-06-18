@@ -1,0 +1,36 @@
+The Nest Recovery Homes Backend Progress
+
+Completed
+
+✅ Express Setup
+✅ MongoDB Atlas
+✅ Admin Schema
+✅ Admin Seeder
+✅ Login API
+✅ JWT Token Generation
+✅ Auth Middleware
+✅ Protected Routes
+
+Endpoints
+
+POST
+apiauthlogin
+
+GET
+apiadminprofile
+
+Authorization Header
+
+Bearer TOKEN
+
+Next Step
+
+STEP 6
+
+React Login Integration
+
+Store JWT
+
+Protected Admin Routes
+
+Auto Logout

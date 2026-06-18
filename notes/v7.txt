@@ -1,0 +1,49 @@
+The Nest Recovery Homes
+
+Authentication System
+
+Completed:
+
+✅ Login API
+
+✅ JWT Token
+
+✅ ProtectedRoute
+
+✅ Profile Verification
+
+✅ Auto Logout
+
+✅ Real Admin Name
+
+Frontend Files:
+
+admin/api/auth.js
+
+admin/components/ProtectedRoute.jsx
+
+AdminLayout.jsx
+
+Routes.jsx
+
+Security:
+
+Protected pages verify token via:
+
+GET /api/admin/profile
+
+Invalid token:
+
+Auto Logout
+
+Next Step:
+
+STEP 8
+
+Leads Model
+
+Lead Schema
+
+Lead API
+
+Save Website Form Leads To MongoDB
