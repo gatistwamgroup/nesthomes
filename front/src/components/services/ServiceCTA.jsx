@@ -19,14 +19,7 @@ The Next Step?
 
 </h2>
 
-<Link
-to="/contact"
-className="bg-white px-8 py-5 rounded-full inline-block"
->
 
-Apply Today
-
-</Link>
 
 </div>
 

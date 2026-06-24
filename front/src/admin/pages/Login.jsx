@@ -203,7 +203,7 @@ const Login = () => {
 
               </button>
 
-             <Link to="/forgot-password" className="text-primary font-medium">
+             <Link to="/admin/forgot-password" className="text-primary font-medium">
                   Forgot Password?
               </Link>
 

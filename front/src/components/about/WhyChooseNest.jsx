@@ -284,29 +284,7 @@ flex-grow
 
 </p>
 
-<Link
-to={item.link}
-className="
-inline-flex
-items-center
-gap-2
 
-mt-8
-
-text-primary
-font-semibold
-
-group-hover:gap-4
-
-transition-all
-"
->
-
-Learn More
-
-<ArrowRight size={16}/>
-
-</Link>
 
 </div>
 
@@ -323,39 +301,7 @@ sm:mt-16"
 data-aos="zoom-in"
 >
 
-<Link
-to="/contact"
-className="
-inline-flex
-items-center
-justify-center
-gap-3
 
-w-full
-sm:w-auto
-
-bg-primary
-text-white
-
-px-6
-sm:px-8
-
-py-4
-sm:py-5
-
-rounded-full
-
-hover:scale-105
-transition-all
-duration-300
-"
->
-
-Apply Today
-
-<ArrowRight size={18}/>
-
-</Link>
 
 </div>
 

@@ -233,31 +233,7 @@ transition
 
           </button>
 
-          <button className="
-border
-border-primary
-text-primary
-w-full
-sm:w-auto
-justify-center
-px-6
-sm:px-8
-py-4
-sm:py-5
-rounded-full
-flex
-items-center
-gap-2
-hover:bg-primary
-hover:text-white
-transition
-">
-
-            Apply Today
-
-            <ArrowRight size={18}/>
-
-          </button>
+          
 
         </div>
 

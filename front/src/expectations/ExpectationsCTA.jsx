@@ -258,46 +258,7 @@ Call Now
 
 </a>
 
-<Link
-to="/contact"
-className="
-border
-border-white
 
-bg-white/10
-backdrop-blur-md
-
-text-white
-
-px-6
-sm:px-8
-
-py-4
-sm:py-5
-
-rounded-full
-
-flex
-items-center
-justify-center
-gap-3
-
-w-full
-sm:w-auto
-
-hover:bg-white
-hover:text-primary
-
-transition-all
-duration-300
-"
->
-
-Apply Today
-
-<ArrowRight size={18}/>
-
-</Link>
 
 </div>
 

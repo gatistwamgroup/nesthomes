@@ -224,33 +224,7 @@ Call Now
 
 </a>
 
-<button className="
-border
-border-white
-bg-white/10
-backdrop-blur-md
-px-6
-sm:px-8
-py-4
-sm:py-5
-rounded-full
-text-white
-flex
-items-center
-justify-center
-gap-3
-hover:bg-white
-hover:text-primary
-transition
-w-full
-sm:w-auto
-">
 
-Apply Today
-
-<ArrowRight size={18}/>
-
-</button>
 
 </div>
 

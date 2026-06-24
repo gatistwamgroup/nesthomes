@@ -1,42 +1,42 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-ArrowRight,
-Target,
-Eye
+    ArrowRight,
+    Target,
+    Eye
 } from "lucide-react";
 
 const MissionVision = () => {
 
-const data=[
+    const data = [
 
-{
-icon:<Target size={28}/>,
-title:"Our Mission",
+        {
+            icon: <Target size={28} />,
+            title: "Our Mission",
 
-description:
-"To create a stable and supportive environment where recovery, growth and accountability can thrive.",
+            description:
+                "To create a stable and supportive environment where recovery, growth and accountability can thrive.",
 
-button:"Learn More",
-link:"/services"
-},
+            button: "Learn More",
+            link: "/services"
+        },
 
-{
-icon:<Eye size={28}/>,
-title:"Our Vision",
+        {
+            icon: <Eye size={28} />,
+            title: "Our Vision",
 
-description:
-"Helping residents move toward a healthier future with confidence, structure and long-term stability.",
+            description:
+                "Helping residents move toward a healthier future with confidence, structure and long-term stability.",
 
-button:"Apply Today",
-link:"/contact"
-}
+            button: "Apply Today",
+            link: "/contact"
+        }
 
-]
+    ]
 
-return(
+    return (
 
-<section className="
+        <section className="
 py-16
 md:py-20
 lg:py-32
@@ -46,22 +46,22 @@ bg-[#F8F6F2]
 overflow-hidden
 ">
 
-<div className="max-w-7xl mx-auto">
+            <div className="max-w-7xl mx-auto">
 
-{/* Heading */}
+                {/* Heading */}
 
-<div
-className="text-center mb-16"
-data-aos="fade-up"
->
+                <div
+                    className="text-center mb-16"
+                    data-aos="fade-up"
+                >
 
-<span className="uppercase tracking-[5px] text-primary text-sm">
+                    <span className="uppercase tracking-[5px] text-primary text-sm">
 
-Mission & Vision
+                        Mission & Vision
 
-</span>
+                    </span>
 
-<h2 className="
+                    <h2 className="
 font-heading
 text-primary
 text-3xl
@@ -73,18 +73,18 @@ sm:mt-5
 leading-[1.2]
 ">
 
-Guided By Purpose
-<br/>
+                        Guided By Purpose
+                        <br />
 
-Driven By Hope
+                        Driven By Hope
 
-</h2>
+                    </h2>
 
-</div>
+                </div>
 
-{/* Cards */}
+                {/* Cards */}
 
-<div className="
+                <div className="
 grid
 grid-cols-1
 md:grid-cols-2
@@ -92,13 +92,13 @@ gap-6
 lg:gap-10
 ">
 
-{data.map((item,index)=>(
+                    {data.map((item, index) => (
 
-<div
-key={index}
-data-aos="zoom-in"
-data-aos-delay={index*200}
-className="
+                        <div
+                            key={index}
+                            data-aos="zoom-in"
+                            data-aos-delay={index * 200}
+                            className="
 relative
 bg-white
 rounded-[25px]
@@ -120,11 +120,11 @@ hover:shadow-2xl
 transition-all
 duration-500
 "
->
+                        >
 
-{/* Background Accent */}
+                            {/* Background Accent */}
 
-<div className="
+                            <div className="
 absolute
 top-0
 right-0
@@ -148,9 +148,9 @@ lg:translate-x-10
 lg:-translate-y-10
 "></div>
 
-{/* Icon */}
+                            {/* Icon */}
 
-<div className="
+                            <div className="
 w-14
 h-14
 
@@ -170,13 +170,13 @@ group-hover:scale-110
 transition
 ">
 
-{item.icon}
+                                {item.icon}
 
-</div>
+                            </div>
 
-{/* Title */}
+                            {/* Title */}
 
-<h3 className="
+                            <h3 className="
 font-heading
 text-2xl
 sm:text-3xl
@@ -186,13 +186,13 @@ mb-4
 sm:mb-6
 ">
 
-{item.title}
+                                {item.title}
 
-</h3>
+                            </h3>
 
-{/* Text */}
+                            {/* Text */}
 
-<p className="
+                            <p className="
 text-gray-500
 text-base
 sm:text-lg
@@ -205,57 +205,21 @@ mb-8
 sm:mb-10
 ">
 
-{item.description}
+                                {item.description}
 
-</p>
+                            </p>
 
-{/* CTA */}
+                        </div>
 
-<Link
-to={item.link}
-className="
-inline-flex
-items-center
-justify-center
-gap-3
+                    ))}
 
-w-full
-sm:w-auto
+                </div>
 
-bg-primary
+            </div>
 
-px-6
-sm:px-7
+        </section>
 
-py-3
-sm:py-4
-
-rounded-full
-
-text-white
-
-hover:scale-105
-transition
-"
->
-
-{item.button}
-
-<ArrowRight size={18}/>
-
-</Link>
-
-</div>
-
-))}
-
-</div>
-
-</div>
-
-</section>
-
-)
+    )
 
 }
 

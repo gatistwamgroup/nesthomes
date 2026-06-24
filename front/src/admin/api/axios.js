@@ -1,12 +1,7 @@
 import axios from "axios";
 
-let baseURL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
-if (baseURL && !baseURL.endsWith('/api')) {
-  baseURL = baseURL.replace(/\/$/, '') + '/api';
-}
-
 const API = axios.create({
-  baseURL,
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
 });
 
 // Add a response interceptor to handle token expiration globally

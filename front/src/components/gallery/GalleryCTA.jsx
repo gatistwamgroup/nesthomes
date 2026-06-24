@@ -47,16 +47,7 @@ Call Now
 
 </a>
 
-<Link
-to="/contact"
-className="border border-white px-8 py-5 rounded-full text-white flex items-center gap-3"
->
 
-Apply Today
-
-<ArrowRight size={18}/>
-
-</Link>
 
 </div>
 

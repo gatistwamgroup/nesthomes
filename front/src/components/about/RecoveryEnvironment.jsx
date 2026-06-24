@@ -247,37 +247,7 @@ sm:text-base
 
 </div>
 
-<div
-className="mt-10"
-data-aos="zoom-in"
->
 
-<Link
-to="#"
-className="
-inline-flex
-items-center
-justify-center
-bg-primary
-text-white
-px-6
-sm:px-8
-py-4
-sm:py-5
-rounded-full
-hover:scale-105
-transition
-duration-300
-w-full
-sm:w-auto
-"
->
-
-Apply Today
-
-</Link>
-
-</div>
 
 </div>
 

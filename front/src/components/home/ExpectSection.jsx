@@ -176,32 +176,7 @@ gap-4
 sm:gap-5
 ">
 
-<Link
-to="/contact"
-className="
-bg-primary
-px-6
-sm:px-8
-py-4
-sm:py-5
-rounded-full
-text-white
-flex
-items-center
-justify-center
-gap-3
-hover:scale-105
-transition
-w-full
-sm:w-auto
-"
->
 
-Apply Today
-
-<ArrowRight size={18}/>
-
-</Link>
 
 <Link
 to="/contact"

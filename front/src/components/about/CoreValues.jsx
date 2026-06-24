@@ -227,31 +227,7 @@ flex-grow
 
 </p>
 
-{/* Button */}
 
-<Link
-to={item.link}
-className="
-mt-6
-sm:mt-8
-inline-flex
-items-center
-gap-2
-text-primary
-font-medium
-text-sm
-sm:text-base
-group-hover:gap-4
-transition-all
-duration-300
-"
->
-
-Learn More
-
-<ArrowRight size={18}/>
-
-</Link>
 
 </div>
 

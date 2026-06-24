@@ -220,39 +220,7 @@ leading-6
 
 </div>
 
-<Link
-to="/contact"
-className="
-inline-flex
-items-center
-justify-center
-gap-3
 
-w-full
-sm:w-auto
-
-bg-primary
-text-white
-
-px-6
-sm:px-8
-
-py-4
-sm:py-5
-
-rounded-full
-
-hover:scale-105
-transition-all
-duration-300
-"
->
-
-Learn More
-
-<ArrowRight size={18}/>
-
-</Link>
 
 </div>
 

@@ -194,16 +194,7 @@ sm:mb-8
 
 </p>
 
-<Link
-to="/contact"
-className="inline-flex items-center gap-2 text-primary font-medium hover:gap-4 transition-all"
->
 
-Learn More
-
-<ArrowRight size={18}/>
-
-</Link>
 
 </div>
 

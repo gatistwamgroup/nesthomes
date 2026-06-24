@@ -211,16 +211,7 @@ flex-grow
 
 <div className="w-full h-[2px] bg-gray-100 mb-6"></div>
 
-<Link
-to="/contact"
-className="flex items-center gap-2 text-primary font-medium hover:gap-4 transition-all"
->
 
-Learn More
-
-<ArrowRight size={18}/>
-
-</Link>
 
 </div>
 
@@ -230,50 +221,7 @@ Learn More
 
 </div>
 
-{/* Bottom CTA */}
 
-<div
-className="
-flex
-justify-center
-mt-10
-sm:mt-16
-"
-data-aos="zoom-in"
->
-
-<Link
-to="/contact"
-className="
-bg-primary
-text-white
-
-px-8
-sm:px-10
-
-py-4
-sm:py-5
-
-rounded-full
-
-w-full
-sm:w-auto
-
-text-center
-
-hover:scale-105
-hover:shadow-xl
-
-transition-all
-duration-500
-"
->
-
-Apply Today
-
-</Link>
-
-</div>
 
 </div>
 

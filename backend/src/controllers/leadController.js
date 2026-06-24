@@ -1,4 +1,5 @@
 import Lead from "../models/Lead.js";
+import sendEmail from "../utils/sendEmail.js";
 
 export const createLead = async (req, res, next) => {
   try {
@@ -11,6 +12,29 @@ export const createLead = async (req, res, next) => {
       message,
       source: source || "Website Form"
     });
+
+    // Send email notification to Admin
+    try {
+      const emailTemplate = `
+      <div style="max-width:600px;margin:auto;font-family:Arial,sans-serif;border:1px solid #ddd;border-radius:10px;padding:20px;">
+        <h2 style="color:#355B5E;text-align:center;">New Lead / Inquiry Received!</h2>
+        <p>You have received a new submission from the website.</p>
+        <ul style="list-style:none;padding:0;font-size:16px;">
+          <li style="margin-bottom:8px;"><strong>Name:</strong> ${fullName}</li>
+          <li style="margin-bottom:8px;"><strong>Email:</strong> ${email}</li>
+          <li style="margin-bottom:8px;"><strong>Phone:</strong> ${phone}</li>
+          <li style="margin-bottom:8px;"><strong>Source:</strong> ${source || "Website Form"}</li>
+        </ul>
+        <div style="background:#f9f9f9;padding:15px;border-left:4px solid #355B5E;margin-top:15px;font-size:15px;white-space:pre-wrap;">
+          <strong>Message:</strong><br/>
+          ${message}
+        </div>
+      </div>
+      `;
+      await sendEmail(process.env.EMAIL_USER, `New Lead: ${fullName}`, emailTemplate);
+    } catch (emailError) {
+      console.log("Email Notification Failed:", emailError);
+    }
 
     // Emit real-time notification to all connected admins
     const io = req.app.get("io");

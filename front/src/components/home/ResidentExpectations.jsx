@@ -149,52 +149,7 @@ mt-8
 sm:mt-10
 ">
 
-<Link
-to="/contact"
-className="
-bg-primary
-text-white
-px-8
-py-4
-rounded-full
-hover:scale-105
-transition
-w-full
-sm:w-auto
-text-center
-"
->
 
-Apply Today
-
-</Link>
-
-<Link
-to="/expectations"
-className="
-border
-border-primary
-text-primary
-px-8
-py-4
-rounded-full
-flex
-items-center
-justify-center
-gap-3
-hover:bg-primary
-hover:text-white
-transition
-w-full
-sm:w-auto
-"
->
-
-Learn More
-
-<ArrowRight size={18}/>
-
-</Link>
 
 </div>
 
